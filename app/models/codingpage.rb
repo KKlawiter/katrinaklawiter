@@ -1,0 +1,2 @@
+class Codingpage < ApplicationRecord
+end

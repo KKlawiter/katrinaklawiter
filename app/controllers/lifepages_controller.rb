@@ -1,0 +1,2 @@
+class LifepagesController < ApplicationController
+end

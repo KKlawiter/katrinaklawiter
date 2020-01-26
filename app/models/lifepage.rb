@@ -1,0 +1,2 @@
+class Lifepage < ApplicationRecord
+end

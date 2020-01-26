@@ -1,0 +1,2 @@
+class Educationpage < ApplicationRecord
+end

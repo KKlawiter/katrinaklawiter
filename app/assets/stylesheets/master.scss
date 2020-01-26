@@ -19,8 +19,21 @@ h2, a {
 	text-align: center;
 }
 
+h3, a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: black;
+  letter-spacing: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+body {
+  background: white;
+}
+
 .hero {
-  background: image_url('hpp.jpg') no-repeat center center fixed;
+  background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,6 +46,8 @@ h2, a {
   height: 25%;
   border: 2px solid white;
   border-radius: 5px;
+  background-color: white;
+  opacity: 50%;
 }
 
 a:focus, a:hover {
