@@ -1,3 +1,3 @@
 class Theatrepage < ApplicationRecord
-	mount_uploader :photo, PhotoUploader
+	mount_uploader :picture, PhotoUploader
 end

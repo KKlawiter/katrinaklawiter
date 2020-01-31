@@ -10,13 +10,22 @@ h1 {
 	text-align: center;
 }
 
-h2, a {
+h2 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	color: white;
 	letter-spacing: 10px;
-	font-size: 70px;
+	font-size: 60px;
 	text-align: center;
+}
+
+h3, a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-align: center;
 }
 
 
@@ -38,25 +47,28 @@ body {
   height: 25%;
   border: 2px solid white;
   border-radius: 5px;
+  overflow: auto;
 }
+
+.feature2 {
+  width: 98%;
+  height: 25%;
+  overflow: auto;
+  margin-left: 1%;
+}
+
+.feature3 {
+  width: 20%;
+  height: 25%;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 2%
+}
+
 
 a:focus, a:hover {
     color: black;
     text-decoration: underline;
-}
-
-
-.footer:hover{
-	color: black;
-    text-decoration: underline;
-}
-
-.footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  box-shadow: 0px 1px 3px #2a2a2a;
-  color: #8E9191;
-  font-weight: 100;
 }
 
 .booyah-box {
@@ -71,4 +83,28 @@ a:focus, a:hover {
 
 .booyah-box h2, .booyah-box h1 {
   margin: 10px;
+}
+
+.educationfeature {
+  width: 90%;
+  height: 33%;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  float: center;
+  margin-left: 5%;
+  text-align: center;
+  background-color: #E8EBEB;
+}
+
+.webdevelopmentfeature {
+  width: 98%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  float: center;
+  margin-left: 1%;
+  background-color: #2E2E2E;
+  color: black;
 }
