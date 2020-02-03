@@ -5,6 +5,10 @@ class TheatrepagesController < ApplicationController
 
 	end
 
+	def show
+		@theatrepage = Theatrepage.all
+	end
+
 	def new
 		@theatrepage = Theatrepage.new
 	end 
