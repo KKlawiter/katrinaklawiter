@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :lifepages
   resources :codingpages
   resources :educationpages
+  resources :contacts
 end

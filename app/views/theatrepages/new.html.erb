@@ -1,5 +1,8 @@
-<%= simple_form_for @theatrepage do |f| %>
-  <%= f.input :picture %>
-  <%= f.input :caption %>
-  <%= f.submit "Add a Picture", class: 'btn btn-primary' %>
-<% end %> 
+<div class="booyah-box col-10 offset-1">
+	<h1> Upload Content </h1>
+	<%= simple_form_for @theatrepage do |f| %>
+	  <%= f.input :picture %>
+	  <%= f.input :caption %>
+	  <%= f.submit "Add a Picture", class: 'btn btn-primary' %>
+	<% end %> 
+</div>
