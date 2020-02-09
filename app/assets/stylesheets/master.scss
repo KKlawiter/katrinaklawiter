@@ -19,7 +19,7 @@ h2 {
 	text-align: center;
 }
 
-h3, a {
+h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
   color: black;
@@ -28,9 +28,17 @@ h3, a {
   text-align: center;
 }
 
+a {
+  color: inherit;
+}
+
 
 body {
   background: white;
+}
+
+.bigbutton {
+  font-size: 40px;
 }
 
 .hero {

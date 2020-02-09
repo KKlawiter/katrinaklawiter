@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
 	def create 
 		@contact = Contact.create(contact_params)
 		ContactMailer.contact_email(@contact).deliver_later
-		redirect_to contact_success_path
+		redirect_to contact_path(@contact)
 	end
 
 	def contact_params 
