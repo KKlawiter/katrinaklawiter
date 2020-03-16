@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   resources :codingpages
   resources :educationpages
   resources :contacts
+  resources :workpages
 end
