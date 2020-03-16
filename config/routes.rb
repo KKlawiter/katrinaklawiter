@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   resources :educationpages
   resources :contacts
   resources :workpages
+  resources :trainingpages
+  resources :headshotpages
 end

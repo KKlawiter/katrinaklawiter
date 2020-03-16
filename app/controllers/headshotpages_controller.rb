@@ -1,0 +1,2 @@
+class HeadshotpagesController < ApplicationController
+end
