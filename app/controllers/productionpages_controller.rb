@@ -1,0 +1,2 @@
+class ProductionpagesController < ApplicationController
+end
