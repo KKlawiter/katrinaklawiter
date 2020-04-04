@@ -50,6 +50,14 @@ body {
   height: 650px;
 }
 
+.blog {
+  background: image_url('blog.jpg') no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
 .feature {
   width: 33%;
   height: 25%;
@@ -92,6 +100,30 @@ a:focus, a:hover {
 
 .booyah-box h2, .booyah-box h1 {
   margin: 10px;
+}
+
+.educationfeature {
+  width: 90%;
+  height: 33%;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  float: center;
+  margin-left: 5%;
+  text-align: center;
+  background-color: #E8EBEB;
+}
+
+.webdevelopmentfeature {
+  width: 98%;
+  height: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  float: center;
+  margin-left: 1%;
+  background-color: #E8EBEB;
+  color: black;
 }
 
 hr {
@@ -163,3 +195,26 @@ body {
     padding: 0;
   }
 }
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+
