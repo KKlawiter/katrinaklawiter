@@ -38,16 +38,21 @@ body {
 }
 
 .bigbutton {
-  font-size: 40px;
+  font-size: 2rem;
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background: image_url('hero.jpg') no-repeat center right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 650px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
 }
 
 .blog {
@@ -59,7 +64,7 @@ body {
 }
 
 .feature {
-  width: 33%;
+  width: 40%;
   height: 25%;
   border: 2px solid white;
   border-radius: 5px;
