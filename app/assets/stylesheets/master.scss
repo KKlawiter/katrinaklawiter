@@ -6,7 +6,7 @@ h1 {
 	font-weight: 200;
 	color: black;
 	letter-spacing: 10px;
-	font-size: 4rem;
+	font-size: 4vw;
 	text-align: center;
 }
 
@@ -15,7 +15,7 @@ h2 {
 	font-weight: 200;
 	color: black;
 	letter-spacing: 10px;
-	font-size: 60px;
+	font-size: 2.5vw;
 	text-align: center;
 }
 
@@ -24,7 +24,7 @@ h3 {
   font-weight: 200;
   color: black;
   letter-spacing: 10px;
-  font-size: 40px;
+  font-size: 1.5vw;
   text-align: center;
 }
 
@@ -34,20 +34,21 @@ a {
 
 
 body {
-  background: white;
+  background: #ffffff;
 }
 
 .bigbutton {
-  font-size: 2rem;
+  font-size: 2.5vw;
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 38rem;
+  background: image_url('hero.jpg') no-repeat center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 650px;
+  width: auto;
 }
 
 .blog {
@@ -59,12 +60,11 @@ body {
 }
 
 .feature {
-  width: 40%;
-  height: 25%;
-  border: 2px solid white;
+  width: 35%;
+  height: 4.5vw;
+  border: 2px solid black;
   border-radius: 5px;
-  background: white;
-  opacity: 30%;
+  background: #ffffff;
 }
 
 .feature2 {
@@ -79,27 +79,12 @@ body {
   border: 2px solid black;
   border-radius: 5px;
   margin: 2%;
-  background-color: #E8EBEB;
 }
 
 
 a:focus, a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.booyah-box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 10px;
-}
-
-.booyah-box h2, .booyah-box h1 {
-  margin: 10px;
+  color: black;
+  text-decoration: underline;
 }
 
 .educationfeature {
@@ -111,7 +96,7 @@ a:focus, a:hover {
   float: center;
   margin-left: 5%;
   text-align: center;
-  background-color: #E8EBEB;
+  font-family: 'Raleway', sans-serif;
 }
 
 .webdevelopmentfeature {
@@ -122,8 +107,8 @@ a:focus, a:hover {
   overflow: auto;
   float: center;
   margin-left: 1%;
-  background-color: #E8EBEB;
   color: black;
+  font-family: 'Raleway', sans-serif;
 }
 
 hr {
@@ -148,7 +133,6 @@ hr {
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
 }
 
 
@@ -227,7 +211,7 @@ body {
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   height: auto;
-  width: 60%;
+  width: 53%;
   margin: auto; 
 }
 
@@ -235,5 +219,17 @@ body {
 .carousel-item-next, 
 .carousel-item-prev {
   display: block;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 3vw;
+  width: 3vw;
+}
+
+link {
+  display: none;
 }
 

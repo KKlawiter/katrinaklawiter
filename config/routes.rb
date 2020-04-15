@@ -4,16 +4,11 @@ Rails.application.routes.draw do
   root 'home_page#index'
 
   resources :theatrepages
-  resources :blogpages do
-    resources :blog do
-      resources :title, only: [:show]
-      resources :body, only: [:show]
-    end
-  end
+  resources :blogpages
   resources :lifepages
   resources :codingpages
   resources :educationpages
-  resources :contacts
+  resources :contactpages
   resources :workpages
   resources :trainingpages
   resources :headshotpages
