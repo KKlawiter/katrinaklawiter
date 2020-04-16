@@ -13,4 +13,6 @@ Rails.application.routes.draw do
   resources :trainingpages
   resources :headshotpages
   resources :productionpages
+  resources :news
+  resources :auditionsides
 end
