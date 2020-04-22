@@ -61,7 +61,7 @@ body {
   display: inline-block;
   cursor: pointer;
   width: contain;
-  margin-left: 6%;
+  margin-left: 5%;
 }
 
 .button:hover {opacity: .8}
@@ -72,7 +72,7 @@ body {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  height: 650px;
+  height: 85vh;
   width: auto;
 }
 
@@ -214,7 +214,11 @@ hr {
   .button {
     width: auto;
     height: auto;
-    font-size: 1vw;
+    font-size: 0.5vw;
+  }
+
+  .hero {
+    margin-top: 30vh;
   }
 }
 
